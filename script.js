@@ -14,7 +14,7 @@ const section4RightImg2 = "https://web-images.credcdn.in/_next/assets/images/hom
 const section4RightImg3 = "https://web-images.credcdn.in/_next/assets/images/home-page/features/neopop-fold3.png";
 const section4RightImg4 = "https://web-images.credcdn.in/_next/assets/images/home-page/features/neopop-fold4.png";
 
-// add scroll event listener
+
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY
     const section4OffsetTop = section4.offsetTop
