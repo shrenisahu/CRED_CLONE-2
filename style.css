@@ -7,6 +7,7 @@
 
 body {
   background-color: #0f0f0f;
+  
   font-family: sans-serif;
   color: white;
 }
@@ -15,8 +16,9 @@ body {
 
 .section-1 {
   max-width: 1040px;
+ /* background-color: red; */
   margin: auto;
-  /* margin-top: 60px; */
+  
   margin-bottom: 200px;
 }
 
@@ -58,7 +60,7 @@ body {
 
 .section-1-main-2 {
   font-size: 30px;
-  /* letter-spacing: -0.2px; */
+  
   line-height: 38px;
   margin-top: 35px;
   font-weight: 700;
@@ -82,7 +84,7 @@ body {
   height: 800px;
   position: relative;
   overflow: hidden;
-  /* background-color: red; */
+  
 }
 
 .section-2-container {
@@ -98,6 +100,7 @@ body {
 
 /* SECTION 3 */
 .section-3 {
+  
   position: relative;
   padding: 240px 200px 180px;
   background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg");
@@ -361,8 +364,7 @@ footer {
 /* media queries */
 
 @media only screen and (max-width: 1170px) and (min-width: 670px) {
-  .section-1 {
-  }
+ 
 }
 
 @media only screen and (max-width: 1000px) {
@@ -375,7 +377,15 @@ footer {
   .section-1-header-options {
     display: none;
   }
+
+  .section-1-header{
+
+    /* display: flex; */
+    margin-left: 30px;
+    /* align-items: flex-start; */
+  }
   .section-1-main {
+   
     margin-top: 30px;
     margin-left: 30px;
     display: flex;
@@ -490,19 +500,25 @@ footer {
     padding: 0px;
   }
   .section-7-main {
+
     margin: 0;
 
     display: flex;
     flex-direction: column;
+    
   }
   .section-7-main-left {
-    width: 100%;
+  
+    text-align: center;
+    
+    width: 90%;
 
     font-size: 38px;
-    white-space: wrap;
+    /* white-space: wrap; */
   }
   .section-7-main-right {
-    width: 100%;
+   
+    width: 90%;
   }
   .section-7-main-right-content {
     text-justify: wrap;
@@ -518,7 +534,7 @@ footer {
 @media only screen and (min-width: 900px) {
 .section-4-2
 {
-    /* background-color: red; */
+    
     display: none;
 }
 }
@@ -526,7 +542,7 @@ footer {
 @media only screen and (max-width: 899px) {
     .section-4
     {
-        /* background-color: red; */
+        
         display: none;
     }
     }
